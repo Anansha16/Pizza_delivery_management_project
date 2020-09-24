@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
- 
+Â 
 struct Node
 {
     int data[10];
@@ -21,7 +21,7 @@ struct Queue
 {
         front = rear = NULL;
     }
- 
+Â 
     void enQueue(int x[])
     {
         Node* temp = new Node(x);
@@ -33,7 +33,7 @@ struct Queue
         rear->next = temp;
         rear = temp;
     }
- 
+Â 
     void deQueue()
     {
         if (front == NULL)
@@ -117,7 +117,7 @@ if(flag==1)
         {
             cout<<"Sorry your option is out of bounds for our delivery option.\n";
                     }
- cout<<" THANK YOU!!!";
+ cout<<" THANK YOU!!! You can check for delivery options at other locations";
     }
 for (int i=0;i<2;i++)
     {
